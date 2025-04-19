@@ -1,8 +1,8 @@
 USE bioinformatics_db;
-DROP PROCEDURE IF EXISTS get_genes_for_species;
+DROP PROCEDURE IF EXISTS get_genes_for_specie;
 
 DELIMITER $$
-CREATE PROCEDURE get_genes_for_species(
+CREATE PROCEDURE get_genes_for_specie(
 	species_name VARCHAR(255)
 )
 BEGIN
